@@ -1,0 +1,83 @@
+@font-face {
+    font-family: Calvoline Personal Use;
+    src: url(Calvoline\ -\ Personal\ Use.ttf);
+}
+
+body {
+    font-family: Calvoline Personal Use;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-size: 16px;
+    color: black;
+    background-image: url(school.jpg);
+}
+
+#form-container {
+    width: 90%;
+    max-width: 600px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgb(154, 253, 245); 
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.1);
+    font-size: 1em;
+}
+
+#header {
+    text-align: center;
+    background-color: rgba(32, 10, 155, 0.5); 
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.6em;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.field {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.5); 
+}
+
+a {
+    color: white;
+}
+
+
+.center-content {
+    text-align: center;
+}
+
+.btn.btn-green {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2em;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(0, 128, 0, 0.5); 
+    font-family: Alagard;
+}
+
+.field, .btn.btn-green {
+    box-shadow: 0px 0px 10px rgba(255, 254, 254, 0.5);
+}
+
+#tabla-calificaciones {
+    display: none; 
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+#tabla-calificaciones th {
+    background-color: #008000; 
+    color: white; 
+}
+
+#tabla-calificaciones td {
+    background-color: #90ee90; 
+}
